@@ -1,5 +1,2 @@
-FROM ubuntu
-CMD ["/bin/bash"]
-#different bases
-#ok
-#done
+FROM nginx
+COPY index.html /usr/share/nginx/html/index.html
